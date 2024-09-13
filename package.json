@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+    "homepage": "https://master.d3nvtivav8378a.amplifyapp.com/",  
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
