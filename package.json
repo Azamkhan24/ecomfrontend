@@ -1,7 +1,6 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "http://officesahayogi.s3-website.ap-south-1.amazonaws.com",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
