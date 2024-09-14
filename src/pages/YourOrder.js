@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import avs from "../assest/sampleImage.jpg"; // Update this import if the image path is different
 import { useSelector } from 'react-redux';
 import SummaryApi from '../common';
 import displayINRCurrency from '../helpers/displayCurrency';
