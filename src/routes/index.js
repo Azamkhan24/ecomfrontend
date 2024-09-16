@@ -18,6 +18,8 @@ import YourOrder from '../pages/YourOrder'
 import AdminAllOrders from '../pages/AdminAllOrders'
 import AdminCompleteOrders from '../pages/AdminCompleteOrders'
 import AboutPage from '../pages/AboutPage'
+import ProductPage from '../pages/ProductPage'
+import ContactUs from '../pages/ContactUs'
 
 const router = createBrowserRouter([
     {
@@ -39,6 +41,14 @@ const router = createBrowserRouter([
             {
                 path : "product-category",
                 element : <CategoryProduct/>
+            },
+            {
+                path : "productpage",
+                element : <ProductPage/>
+            },
+            {
+                path : "contactUs",
+                element : <ContactUs/>
             },
             {
                 path : "About",

@@ -48,9 +48,10 @@ const Header = () => {
     if (value) {
       navigate(`/search?q=${value}`)
     } else {
-      navigate("/search")
+      navigate("/")
     }
   }
+  
   return (
     <header className='h-16 border-b  fixed w-full z-40 px-2 bg-slate-900'>
       <div className=' h-full container mx-auto flex items-center px-4 justify-between'>
@@ -64,10 +65,10 @@ const Header = () => {
           <Link to="/" className='pl-3 flex items-center gap-3' >
             <div className='lg:flex font-normal text-xs  text-white'>Home</div>
           </Link>
-          <Link to="/" className='pl-3 flex items-center gap-3' >
+          <Link to="/productpage" className='pl-3 flex items-center gap-3' >
             <div className='lg:flex font-normal text-xs  text-white'>Product</div>
           </Link>
-          <Link to="/" className='pl-3 flex items-center gap-3' >
+          <Link to="/contactUs" className='pl-3 flex items-center gap-3' >
             <div className='lg:flex font-normal text-xs  text-white'>Contact US</div>
           </Link>
           <Link to="/About" className='pl-3 flex items-center gap-3' >

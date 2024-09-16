@@ -1,4 +1,6 @@
-const baseURL = 'http://officesahayogi.ap-south-1.elasticbeanstalk.com';
+// const baseURL = 'http://officesahayogi.ap-south-1.elasticbeanstalk.com';
+
+const baseURL = 'http://localhost:5000'
 
 const SummaryApi = {
     signUP : {

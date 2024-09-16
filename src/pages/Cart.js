@@ -92,7 +92,6 @@ const Cart = () => {
       if (responseData.success) {
         fetchData();
         context.fetchUserAddToCart();
-        // toast.success(responseData.message)
 
       }
     } catch (error) {
@@ -204,7 +203,7 @@ const Cart = () => {
                     <p className="font-semibold text-lg text-black">{displayINRCurrency(totalPrice)}</p>
                   </div>
                 </div>
-                <Link to="/checkoutPage">
+                <Link to="*">
                   <button className="bg-gray-800 hover:bg-blue-600 p-2 text-white w-full">Buy Now</button>
                 </Link>
               </div>

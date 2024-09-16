@@ -8,6 +8,7 @@ import VerticalCardProduct from '../components/VerticalCardProduct';
 import CategroyWiseProductDisplay from '../components/CategoryWiseProductDisplay';
 import addToCart from '../helpers/addToCart';
 import Context from '../context';
+import ScrollToTop from '../helpers/scrollTop';
 
 const ProductDetails = () => {
   const [data, setData] = useState({
@@ -94,6 +95,9 @@ const ProductDetails = () => {
   };
 
   return (
+    <>    
+    
+     <ScrollToTop/>
     <div className="container mx-auto p-4">
       <div className="min-h-[200px] flex flex-col lg:flex-row gap-4">
         {/***product Image */}
@@ -216,6 +220,7 @@ const ProductDetails = () => {
         />
    
     </div>
+    </>
   );
 };
 
