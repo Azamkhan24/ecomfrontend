@@ -1,6 +1,12 @@
 // const baseURL = 'http://officesahayogi.ap-south-1.elasticbeanstalk.com';
 
-const baseURL = 'http://localhost:5000'
+const baseURL = process.env.REACT_APP_BASE_URL;
+console.log("Base URL:", baseURL);  // This should log the value
+
+
+// const baseURL = process.env.BASE_URL
+
+// console.log("base",process.env.BASE_URL);
 
 const SummaryApi = {
     signUP : {
